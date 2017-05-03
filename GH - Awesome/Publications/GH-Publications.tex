@@ -1,0 +1,158 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-skyblue}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     3rd party packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Needed to divide into several files
+\usepackage{import}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Make a footer for CV with three arguments(<left>, <center>, <right>)
+\makecvfooter
+  {\today}
+  {Guillaume Habault~~~·~~~Résumé}
+  {\thepage}
+
+\begin{document}
+%%% Make a header for CV with personal data
+%\makecvheader
+
+\cvsection{List of publications}
+
+\cvsubsection{IETF Draft}
+\begin{cvhonors}
+  \cvpublication
+  	{}
+    {G. HABAULT, E. GALLET and L. TOUTAIN}
+    {Proposal for Selecting the Default-route according to Source Address}
+    {}
+    {2012}
+\end{cvhonors}
+
+\cvsubsection{International Conferences}
+\begin{cvhonors}
+  \cvpublication
+  	{}
+    {G. HABAULT, P. MAILLE, L. TOUTAIN, A. PELOV, N. MONTAVONT and P. BERTIN}
+    {Lightweight service announcement: The
+case for Wi-Fi M2M service providers}
+    {in \textit{ANTS 2013 IEEE International Conference}}
+    {2013}
+  \cvpublication
+  	{}
+    {G. HABAULT, L. TOUTAIN, N. MONTAVONT and P. BERTIN}
+    {Service-based Network Selection Proposal for Complex
+Heterogeneous Environments}
+    {in \textit{Globecom 2014 IEEE International Conference}}
+    {2014}
+  \cvpublication
+  	{}
+    {T. SHIOBARA, G. HABAULT, H. NISHI and J.M. BONNIN}
+    {Effective Communication Optimization for V2G with Electric Bus}
+    {in \textit{INDIN 2016 IEEE International Conference}}
+    {2016}
+  \cvpublication
+  	{}
+    {M. LEFRANÇOIS, G. HABAULT, C. RAMONDOU and E. FRANCON}
+    {Outsourcing Electric Vehicle Smart Charging on the Web of
+Data}
+    {in \textit{GREEN 2016 IARA International Conference}}
+    {}     
+  \cvpublication
+  	{}
+    {G. HABAULT, J. HURSTI and J.M. BONNIN}
+    {Defining a Distributed Architecture for Smart Energy Aware Systems}
+    {in \textit{CSD\& M
+2016 International Conference}}
+    {}
+  \cvpublication
+  	{Under submission}
+    {C. BOUETTE, B. MARTINEZ, A. OUYA, G. HABAULT, N. MONTAVONT and G. PAPADOPOULOS}
+    {An Efficient Electric Vehicle Charging Architecture based on LoRa Communication}
+    {in \textit{IEEE International Conference on Smart Grid Communications (SmartGridComm)}}
+    {2017}
+  \cvpublication
+  	{To be published}
+    {\textit{G. HABAULT, J.M. BONNIN and M. GIROD-GENET}}
+    {\textit{State-of-the-Art of IoT architectures}}
+    {}
+    {}
+\end{cvhonors}
+    
+\cvsubsection{International Journals}
+\begin{cvhonors}
+  \cvpublication
+  	{Under review process}
+    {\textit{G. HABAULT, T. MATSUI, M. LEFRANÇOIS, N. MONTAVONT, G. PAPADOPOULOS and P. CHATZIMISIOS}}
+    {\textit{Optimization of Monitoring Traffic in Smart Grid Architectures}}
+    {}
+    {\textit{2017}}   
+\end{cvhonors}
+
+\cvsubsection{Tutorial Conference}
+\begin{cvhonors}
+  \cvpublication
+  	{}
+    {G. HABAULT}
+    {Architectures for IoT applications in the Energy Domain}
+    {in \textit{GREEN 2016 IARA International Conference}}
+    {2016}
+\end{cvhonors}
+
+\cvsubsection{Book chapters}
+\begin{cvhonors}
+  \cvpublication
+  	{Under review process}
+    {\textit{G. HABAULT, F. LEMERCIER, G. PAPADOPOULOS, P. MAILLE, P. CHATZIMISIOS and N. MONTAVONT}}
+    {\textit{From Architecture to Networking in Smart Grid Systems}}
+    {}
+    {\textit{2017}}
+\end{cvhonors}
+
+\end{document}
