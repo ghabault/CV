@@ -622,7 +622,7 @@
 \newcommand*{\cvpublication}[5]{
   \honordatestyle{#5} & \honorpositionstyle{#2} & \honorlocationstyle{#1} \\
   {} & \honortitlestyle{#3} & {} \\
-  {} & \honortitlestyle{#4} & {} \\
+  {} & \honortitlestyle{#4} & {}ï¿½\\
 }
 
 % Define an environment for cvskill
@@ -649,6 +649,19 @@
   \begin{itemize}[leftmargin=10ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
+}{
+  \end{itemize}
+  \end{justify}
+  \vspace{-2mm}
+}
+
+% Define an environment for specific items(for cventry)
+\newenvironment{cvspecificitems}{
+  \vspace{-4mm}
+  \begin{justify}
+  \begin{itemize}[leftmargin=10ex, nosep, noitemsep]
+    \setlength{\parskip}{0pt}
+    \renewcommand{\labelitemi}{$\Rightarrow$}
 }{
   \end{itemize}
   \end{justify}
